@@ -5,9 +5,9 @@ document.getElementById('btn1').onclick = (event) => {
     let price = document.getElementById('price').value;
     if((/\D/.test(number)) || (/\D/.test(price))){
         console.log('complete');
-        document.getElementById('sum').innerHTML = "Not valid value";    }
+        document.getElementById('itog').innerHTML = "Not valid value";    }
     else{
         console.log('not complete');
-        document.getElementById('sum').innerHTML = number*price ;
+        document.getElementById('itog').innerHTML = number*price ;
     }
 }
