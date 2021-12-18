@@ -8,6 +8,6 @@ document.getElementById('btn1').onclick = (event) => {
         document.getElementById('itog').innerHTML = "Not valid value";    }
     else{
         console.log('not complete');
-        document.getElementById('itog').innerHTML = number*price ;
+        document.getElementById('sum').innerHTML = number*price ;
     }
 }
